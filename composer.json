@@ -1,0 +1,12 @@
+{
+    "name": "aruba/fe-fatturazione-elettronica",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "ArubaFe\\": "App/"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}

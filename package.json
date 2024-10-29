@@ -1,0 +1,39 @@
+{
+  "name": "aruba-fe",
+  "version": "1.2.0",
+  "description": "A Job posting platform made by WordPress",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "build": "wp-scripts build && npm run movetodir && npm run zip",
+    "start": "wp-scripts start",
+    "zip": "npm-build-zip --source=dist --name=dist/woocommerce --name_only=true",
+    "movetodir": "mkdir -p dist/aruba-fatturazione-elettronica && cp -r App assets build languages src templates tmp_invoices vendor *.php composer.json readme.txt package.json webpack.config.js .env dist/aruba-fatturazione-elettronica/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@hookform/devtools": "^4.3.1",
+    "@woocommerce/dependency-extraction-webpack-plugin": "^3.0.1",
+    "@woocommerce/eslint-plugin": "^2.2.0",
+    "@wordpress/prettier-config": "^3.10.0",
+    "@wordpress/scripts": "^27.4.0",
+    "css-loader": "^6.8.1",
+    "npm-build-zip": "1.0.4",
+    "style-loader": "^3.3.3"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.1",
+    "@wordpress/api-fetch": "^6.30.0",
+    "classnames": "^2.3.2",
+    "lodash": "^4.17.21",
+    "lodash.assignin": "^4.2.0",
+    "lodash.set": "^4.3.2",
+    "lodash.update": "^4.10.2",
+    "react-confirm-alert": "^3.0.6",
+    "react-hook-form": "^7.43.9"
+  }
+}

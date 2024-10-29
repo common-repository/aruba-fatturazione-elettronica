@@ -1,0 +1,585 @@
+/* Main header*/
+#aruba-fe-admin-app
+div.main_header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 12px;
+}
+#aruba-fe-admin-app
+div.main_header img {
+
+    width: 150px;
+    height: auto;
+
+}
+
+/* API CONNECTION*/
+#aruba-fe-admin-app
+.block_api_connection {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    text-align: left;
+    gap: 16px;
+}
+#aruba-fe-admin-app
+.aruba_fe_intro {
+    padding: 12px;
+}
+#aruba-fe-admin-app
+.block_api_connection .block_api_connection_single_item .block_api_connection_single_item_label {
+
+    font-weight: bold;
+    margin-bottom: 8px;
+
+}
+#aruba-fe-admin-app
+.block_api_connection > div {
+    margin: 16px 0;
+}
+#aruba-fe-admin-app
+.block_api_connection input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 16px;
+    min-height: auto;
+}
+#aruba-fe-admin-app
+.block_api_connection input.invalid {
+    border-color: rgb(255, 17, 0);
+}
+#aruba-fe-admin-app
+.wrapper_connect_button {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    margin-top: 23px;
+}
+
+.custom_notice {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-left-width: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    margin: 5px 15px 2px;
+    padding: 1px 12px;
+    margin: 5px 0 15px;
+}
+
+.custom_notice-warning {
+    border-left-color: #dba617;
+}
+
+.custom_notice-info {
+    border-left-color: #72aee6;
+}
+
+.cf-container div.cf-field {
+    border: none;
+}
+#aruba-fe-admin-app
+.border_bottom {
+    border-bottom: 2px solid #9E9E9E !important;
+}
+#aruba-fe-admin-app
+.border_top {
+    border-top: 2px solid #9E9E9E !important;
+}
+
+
+/* payments*/
+#aruba-fe-admin-app
+div.cf-field.cf-select.payments .cf-field__head,
+#aruba-fe-admin-app
+div.cf-field.cf-select.payments .cf-field__body {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 14px;
+
+}
+#aruba-fe-admin-app
+div.cf-field.cf-select.payments .cf-field__head label {
+    margin: 2px;
+    padding: 5px;
+}
+
+/* tutto il blocco*/
+#aruba-fe-admin-app
+.block_payments {
+    background-color: #ffffff;
+}
+
+/* rimuovo sfondo*/
+#aruba-fe-admin-app
+.postbox {
+    position: relative;
+    min-width: 320px;
+    box-sizing: border-box;
+    border: none;
+    box-shadow: none;
+    background: #f0f0f1;
+    padding: 20px 0;
+}
+#aruba-fe-admin-app
+.mb-10 {
+    margin-bottom: 10px;
+}
+#aruba-fe-admin-app
+.mt-10 {
+    margin-top: 10px;
+}
+#aruba-fe-admin-app
+.ml-10 {
+    margin-left: 10px !important;
+}
+
+/* pagination section */
+#aruba-fe-admin-app
+.text-center {
+    text-align: center;
+}
+
+/* tax button save */
+#aruba-fe-admin-app
+.complex_tax {
+    display: flex;
+    justify-content: center;
+    background-color: #3858ea;
+
+}
+#aruba-fe-admin-app
+.complex_tax button.connect_button {
+    background-color: #3858ea;
+    color: #ffffff;
+}
+#aruba-fe-admin-app
+.button_tax {
+    border: none;
+    padding: 7px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.activeButton {
+    color: white;
+    background: #185adb;
+}
+
+.inactiveButton {
+    color: #2c3e50;
+    background: #f9f9f9;
+}
+
+
+/*delete tax rate*/
+#aruba-fe-admin-app
+.delete_tax_rate_wrapper {
+    display: flex;
+    justify-content: right;
+}
+#aruba-fe-admin-app
+.header_tax_rate {
+
+    display: flex;
+    justify-content: inherit;
+    align-items: center;
+
+}
+
+
+/*add tax */
+#aruba-fe-admin-app
+.add_tax_class {
+    display: inline-flex;
+}
+
+.aruba-fe-loading {
+
+    position: fixed;
+    z-index: 10000;
+    background: #f0f0f080;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding-top: 20%;
+    flex-direction: row;
+
+}
+
+.aruba-fe-loading > div {
+
+    color: #fff;
+    font-size: 48px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.aruba_fe_container select {
+    max-width: 300px;
+}
+
+.aruba_fe_container .table {
+    max-width: 600px;
+}
+
+.aruba_fe_notice {
+    background: #FEFAF3 !important;
+    /*border:1px solid #ffeeba!important;*/
+}
+
+.aruba_fe_notice.notice-error {
+    background: #FFF2F4 !important;
+}
+
+.aruba_fe_notice.notice-success {
+    background: #F3FEF4 !important;
+}
+
+.aruba_fe_notice.notice-info {
+    background: #F3FBFE !important;
+}
+
+.aruba_fe_notice.info{
+    background: #FFF !important;
+    border-left-color : #3858E9!important;
+}
+
+.fe-btn {
+
+    /*font-weight: 600;*/
+    font-size: 16px;
+    line-height: 18px;
+    border: 2px solid #1474bd;
+    display: inline-block;
+    text-decoration: none !important;
+    padding: 16px;
+    border-radius: 2px;
+    transition: all .5s;
+    color: #1474bd;
+    background: #fff;
+}
+
+button.fe-btn {
+    cursor: pointer;
+}
+
+button.fe-btn:disabled {
+    cursor: not-allowed;
+}
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.fe-text-center {
+    text-align: center;
+}
+
+.aruba-fe-overlay-js h1 {
+    line-height: 1.2
+}
+
+.aruba-fe-overlay-js {
+    z-index: 10000;
+    background: #f0f0f080;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: none;
+    animation: none !important;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.aruba-fe-overlay-js > div {
+
+    width: calc(100% - 32px);
+    max-width: 600px;
+    background: #FFF;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 16px;
+}
+
+.aruba-fe-overlay-js
+.modal-message {
+    margin: 16px 0;
+}
+
+.aruba-fe-overlay-js .modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+
+}
+
+.fe-btn.fe-btn-primary {
+
+    background-color: #1474BD;
+    color: #FFF;
+
+}
+
+.fe-btn.fe-btn-empty {
+
+    background-color: transparent;
+    color: #1474BD;
+    border: none;
+
+}
+
+.aruba-fe-order-links {
+    padding-top: 16px;
+    width: 100%;
+    float: none;
+    display: block;
+    clear: both;
+}
+
+.aruba-fe-order-links:before {
+    display: flex;
+    content: '';
+    width: 100%;
+    clear: both;
+    box-sizing: border-box;
+}
+
+.ft-stat {
+    padding: 2px 8px;
+    display: inline-block;
+    text-align: center;
+    color: #09800f;
+    border-radius: 50px;
+    border: 1px solid #09800f;
+    background: #f3fff4;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: normal !important;
+}
+
+
+.aruba-fe-label {
+    display: inline-flex;
+    padding: 2px 8px;
+    align-items: flex-start;
+    border-radius: 20px;
+    border: 1px solid var(--grigio-444444, #444);
+    background: var(--background-global-background-warning, #FEFAF3);
+}
+
+.aruba-fe-order-links .aruba-fe-label{
+    text-transform: uppercase;
+}
+
+.label-success {
+
+    color: #09800f;
+    border: 1px solid var(--semantic-success-success-interactive-default, #09800F);
+    background: var(--background-global-background-success, #F3FEF4);
+}
+
+.label-error {
+
+    color: #d0021b;
+    border: 1px solid var(--semantic-danger-danger-interactive-default, #D0021B);
+    background: var(--background-global-background-warning, #FEFAF3);
+}
+
+.label-warning {
+
+    color: #444444;
+    border: 1px solid var(--semantic-warning-warning-interactive-default, #F5A623);
+    background: var(--background-global-background-warning, #FEFAF3);
+}
+
+.aruba-fe-icon {
+
+    display: inline-flex;
+
+}
+
+.aruba-fe-icon img {
+
+    display: inline-flex;
+
+}
+
+
+.loader {
+    font-family: 'Lato';
+    display: block;
+    color: #FFFFFF;
+    position: relative;
+    font-size: 22px !important;
+    text-align: center;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.paperstroke {
+    fill: none;
+    stroke: #020203;
+    stroke-width: 2;
+    stroke-miterlimit: 5;
+}
+
+.paperstrokes {
+    fill: none;
+    stroke: #020203;
+    stroke-width: 2;
+    stroke-miterlimit: 5;
+}
+
+.first-svg {
+    fill: url(#SVGID_1_);
+}
+
+.base {
+    fill: #020203;
+    stroke: #020203;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+}
+
+.paperbackground {
+    fill: #FFFFFF;
+}
+
+.content {
+    fill: none;
+    stroke: #020203;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-miterlimit: 5;
+}
+
+.circlefilled {
+    fill: #020203;
+}
+
+.bordermonitor {
+    fill: none;
+    stroke: #020203;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-miterlimit: 5;
+}
+
+
+.strokehidden {
+    fill: none;
+    stroke: #020203;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+}
+
+.six-svg {
+    fill: #D5D4D3;
+}
+
+.seven-svg {
+    fill: #020203;
+}
+
+.paperbackground, .paperstroke {
+    -webkit-animation: movement 1s ease infinite;
+    -ms-animation: movement 1s ease infinite;
+    animation: movement 1s ease infinite;
+}
+
+div.errors-list,
+div.errors-list p,
+div.errors-list li{
+
+    color:  #D0021B!important;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 114.286% */
+
+}
+
+@-webkit-keyframes movement {
+    0% {
+        -webkit-transform: translateY(-3px);
+        -ms-transform: translateY(-3px);
+        transform: translateY(-3px);
+    }
+    25% {
+        -webkit-transform: translateY(-9px);
+        -ms-transform: translateY(-9px);
+        transform: translateY(-9px);
+    }
+    50% {
+        -webkit-transform: translateY(-9px);
+        -ms-transform: translateY(-9px);
+        transform: translateY(-9px);
+    }
+    100% {
+        -webkit-transform: translateY(-3px);
+        -ms-transform: translateY(-3px);
+        transform: translateY(-3px);
+    }
+}
+
+.content, .circlefilled {
+    -webkit-animation: hideshow 1s ease infinite;
+    -ms-animation: hideshow 1s ease infinite;
+    animation: hideshow 1s ease infinite;
+}
+
+@-webkit-keyframes hideshow {
+    0% {
+        -webkit-transform: translateY(-4px);
+        -ms-transform: translateY(-4px);
+
+        transform: translateY(-4px);
+    }
+    25% {
+        -webkit-transform: translateY(-8px);
+        -ms-transform: translateY(-8px);
+
+        transform: translateY(-8px);
+    }
+    50% {
+        -webkit-transform: translateY(-8px);
+        -ms-transform: translateY(-8px);
+
+        transform: translateY(-8px);
+    }
+    100% {
+        -webkit-transform: translateY(-4px);
+        -ms-transform: translateY(-4px);
+
+        transform: translateY(-4px);
+    }
+}

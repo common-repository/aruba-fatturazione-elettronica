@@ -1,0 +1,424 @@
+.fe-btn {
+
+  &.fe-btn-primary {
+
+    background-color: #1474BD;
+    color: #FFF;
+
+  }
+
+  &.fe-btn-empty {
+
+    background-color: transparent;
+    color: #1474BD;
+    border: none;
+
+  }
+
+  &.fe-btn-danger {
+
+    background-color: #dc3545;
+    color: #FFF;
+    border-color: #dc3545;
+
+  }
+
+}
+
+.aruba-fe-overlay {
+
+  z-index: 10000;
+  background: #f0f0f080;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: none;
+  animation: none !important;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .react-confirm-alert {
+
+    width: calc(100% - 32px);
+    max-width: 800px;
+    background: #FFF;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 16px;
+
+  }
+
+
+  .modal-message {
+    margin: 16px 0;
+  }
+
+  .modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: nowrap;
+
+  }
+
+  h1 {
+    line-height: 120%;
+  }
+}
+
+.block_payments {
+  max-width: 600px;
+}
+
+select.invalid {
+
+  background-color: #F0A9B2;
+  border-color: #CC1818;
+
+}
+
+select.invalid option{
+
+  background: #FFF!important;
+
+}
+
+.aruba_fe_notice {
+  position: relative;
+}
+
+.aruba-fe-errors-bar {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 150000;
+  display: flex;
+  align-items: flex-end;
+  padding: 16px;
+  background: #FFF;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.aruba-fe-errors-bar > div {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.header_tax_tate_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.add-new-rate {
+  border-top: 2px solid #9E9E9E;
+  padding-top: 10px;
+}
+
+.tax-rate-row {
+  margin-bottom: 10px;
+}
+
+.wrapper_tax_button {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0px;
+
+  a:nth-child(1) {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  a:nth-child(2) {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+  }
+
+}
+
+.input-xlarge {
+  width: 300px;
+}
+
+.tale-pagination td {
+  padding: 10px;
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .fe-btn {
+    padding: 8px 16px;
+    border-width: 1px;
+
+    &:disabled {
+
+      border-color: #CCCCCC;
+      color: #CCCCCC;
+
+    }
+
+  }
+
+}
+
+.fe-tablist {
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    border-bottom: 1px solid #000;
+
+    li {
+
+      border: 1px solid #000;
+      border-bottom: 0;
+      margin-bottom: 0;
+
+      a {
+
+        display: inline-block;
+        padding: 16px;
+        color: #5f6b76;
+        font-weight: 600;
+        text-decoration: none;
+        position: relative;
+        outline: 0;
+        background: #dcdcde;
+
+        &:focus {
+          box-shadow: none;
+        }
+
+      }
+
+      &.active {
+        a {
+          background: transparent;
+          color: #000;
+        }
+
+        a:after {
+
+          content: '';
+          display: block;
+          background: #F0F0F1;
+          height: 1px;
+          width: 100%;
+          position: absolute;
+          bottom: -1px;
+          left: 0;
+
+        }
+
+      }
+
+
+    }
+
+  }
+}
+
+.table-large {
+  max-width: 800px !important;
+}
+
+.woocommerce-states {
+  .block_create_invoice_radio {
+
+    label {
+      display: inline-flex;
+      line-height: 2.5em;
+      color: #777;
+      background: #e5e5e5;
+      border-radius: 4px;
+      border-bottom: 1px solid rgba(0, 0, 0, .05);
+      margin: -.25em 0;
+
+      white-space: nowrap;
+      max-width: 100%;
+      padding: 0 1em;
+    }
+
+    .status-completed {
+      label {
+        background: #c8d7e1;
+        color: #2e4453;
+      }
+    }
+
+    .status-processing {
+      label {
+        background: #c6e1c6;
+        color: #5b841b;
+      }
+    }
+
+    .status-on-hold {
+      label {
+        background: #f8dda7;
+        color: #94660c;
+      }
+    }
+
+  }
+}
+
+.aruba_fe_container select {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 400;
+}
+
+.block_payments {
+  text-align: left;
+
+  th.wc-method {
+    width: 45%;
+    padding: 12px;
+    font-weight: 600;
+  }
+
+  th.fe-method {
+    width: 55%;
+    padding: 12px;
+    font-weight: 600;
+  }
+
+  .block_payments_select_blocks {
+
+    td {
+      padding: 12px;
+      text-align: left;
+      border-top: 1px solid #A7AAAD;
+
+      &.cf-field__head {
+        font-weight: 600;
+      }
+
+      &.cf-field__body {
+        border-left: 1px solid #A7AAAD;
+      }
+
+    }
+
+  }
+
+}
+
+.button-selected {
+  color: #ffffff !important;
+  border-color: #2271b1 !important;
+  background: #2271b1 !important;
+  vertical-align: top !important;
+}
+
+
+/* table */
+.table {
+  border-collapse: collapse;
+  border: 1px solid #A7AAAD;
+  background-color: #FFF;
+}
+
+.tableRowHeader {
+  th {
+    text-align: left;
+    padding: 12px;
+    font-weight: 600;
+  }
+
+}
+
+.tableRowItems,
+.table-pagination {
+  td {
+
+    padding: 12px;
+    text-align: left;
+    border-top: 1px solid #A7AAAD;
+
+    &:nth-child(1) {
+      font-weight: 600;
+      width: 45%;
+    }
+
+    &:nth-child(2) {
+      width: 55%;
+      border-left: 1px solid #A7AAAD;
+    }
+
+  }
+}
+
+.table-pagination {
+  td {
+    font-size: 11px;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .fe-btn-pagination {
+      border: 1px solid #2271b1;
+      color: #2271b1;
+      padding: 6px 12px;
+      line-height: 16px;
+      font-size: 11px;
+
+      &:disabled {
+        border: 1px solid #A7AAAD;
+        color: #A7AAAD;
+      }
+
+    }
+
+  }
+
+}
+
+#aruba-fe-admin-app {
+  font-size: 14px;
+
+  h2, h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+
+.block_api_connection{
+
+  .block_api_connection_single_item_label{
+
+    button{
+      padding: 0 0 0 8px;
+
+    }
+
+  }
+
+}

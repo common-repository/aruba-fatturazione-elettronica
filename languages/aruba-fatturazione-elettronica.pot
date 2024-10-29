@@ -1,0 +1,1289 @@
+# Translation of Plugins - Aruba Fatturazione Elettronica - Development (trunk) in Italian
+# This file is distributed under the same license as the Plugins - Aruba Fatturazione Elettronica - Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2024-04-02 11:25+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: \n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Eazy Po 1.0.0.0\n"
+
+#: aruba-fatturazione-elettronica.php:65
+msgid "Invalid endpoint"
+msgstr ""
+
+#: aruba-fatturazione-elettronica.php:83
+msgid "WooCommerce is required"
+msgstr ""
+
+#: App/Admin/AdminMenuPage.php:23
+msgid "Aruba Electronic Invoicing - Configuration"
+msgstr ""
+
+#: App/Admin/AdminMenuPage.php:24 App/Admin/Label/ArubaFeLabel.php:82
+msgid "Aruba Electronic Invoicing"
+msgstr ""
+
+#: App/Admin/AdminRestApi.php:702 App/Admin/AdminRestApi.php:765
+#, php-format
+msgid ""
+"You have exceeded the maximum limit of %1$s attempts to enter codes. Please "
+"wait %2$s seconds before trying again."
+msgstr ""
+
+#: App/Admin/ArubaFeHooksManage.php:205
+msgid "Setting"
+msgstr ""
+
+#: App/Admin/ArubaFeHooksManage.php:270
+msgid "View order"
+msgstr ""
+
+#: App/Admin/ArubaFeHooksManage.php:310
+msgid "Generate draft invoice"
+msgstr ""
+
+#: App/Admin/ArubaFeHooksManage.php:319
+msgid "View credit note"
+msgstr ""
+
+#: App/Admin/ArubaFeHooksManage.php:325
+msgid "View Invoice"
+msgstr ""
+
+#: App/Admin/ArubaFeHooksManage.php:329
+msgid "Send copy invoice by email"
+msgstr ""
+
+#: App/Admin/ArubaFeHooksManage.php:331
+msgid "Download PDF invoice copy"
+msgstr ""
+
+#: App/Admin/ArubaFeHooksManage.php:340
+msgid "Generate draft credit note"
+msgstr ""
+
+#: App/Admin/ArubaFeHooksManage.php:574
+msgid "The elettronic invoice was already sent"
+msgstr ""
+
+#: App/Admin/ArubaFeHooksManage.php:600
+msgid "The draft invoice was already sent"
+msgstr ""
+
+#: App/Admin/ArubaFeHooksManage.php:638 App/Admin/ArubaFeHooksManage.php:646
+#: App/Publics/PublicInit.php:79 App/Publics/PublicInit.php:87
+msgid "The document is not avaiable"
+msgstr ""
+
+#: App/Admin/ArubaFeHooksManage.php:769
+msgid "Invoice Status"
+msgstr ""
+
+#: App/Admin/ArubaFeHooksManage.php:820 templates/admin/tpl_order_links.php:32
+msgid "Not applicable"
+msgstr ""
+
+#: App/Admin/ArubaFeHooksManage.php:853
+msgid "Draft"
+msgstr ""
+
+#: App/Admin/ArubaFeHooksManage.php:865 templates/admin/tpl_order_links.php:45
+msgid "Incomplete order"
+msgstr ""
+
+#: App/Admin/AppState/AppStateManager.php:39
+msgid ""
+"An updated version of the Aruba Electronic Invoicing plugin is now available "
+"that brings improvements over the current version."
+msgstr ""
+
+#: App/Admin/AppState/AppStateManager.php:47
+#, php-format
+msgid ""
+"<p><a href='%s' target='_blank'>Download it now from this page</a>, install "
+"it on WooCommerce and confirm the substitution.</p>"
+msgstr ""
+
+#: App/Admin/AppState/AppStateManager.php:95
+msgid ""
+"The web address of your online shop has changed. Go to the Electronic "
+"Billing Panel Settings and generate a new customer code and secret code for "
+"WooCommerce within the E-commerce section. Then replace them in the "
+"configuration of the Aruba Electronic Invoicing plugin."
+msgstr ""
+
+#: App/Admin/AppState/AppStateManager.php:105
+msgid ""
+"The WooCommerce module has expired. No new orders will be imported on "
+"Aruba's Electronic Invoicing service."
+msgstr ""
+
+#: App/Admin/AppState/AppStateManager.php:117
+msgid ""
+"In the WooCommerce settings you have selected the indication of prices "
+"including VAT. Change this setting to allow the correct functioning of the "
+"Aruba Electronic Invoicing plugin."
+msgstr ""
+
+#: App/Admin/AppState/AppStateManager.php:131
+#: App/Admin/AppState/AppStateManager.php:149
+msgid ""
+"Complete the configuration of the Aruba Electronic Invoicing plugin to "
+"immediately start importing orders into the invoicing service and "
+"automatically generate electronic invoices."
+msgstr ""
+
+#: App/Admin/AppState/AppStateManager.php:132
+#: App/Admin/AppState/AppStateManager.php:218
+#: App/Admin/AppState/AppStateManager.php:257
+msgid "Configure now"
+msgstr ""
+
+#: App/Admin/AppState/AppStateManager.php:150
+msgid "Activate now"
+msgstr ""
+
+#: App/Admin/AppState/AppStateManager.php:217
+msgid ""
+"Some rates are not configured correctly with the Aruba Electronic Invoicing "
+"plugin"
+msgstr ""
+
+#: App/Admin/AppState/AppStateManager.php:230
+msgid ""
+"You have set a currency other than , the Aruba Electronic Invoicing plugin "
+"will create invoices in  without currency conversion"
+msgstr ""
+
+#: App/Admin/AppState/AppStateManager.php:251
+#, php-format
+msgid ""
+"You have added %s to your payment methods. Associate it with one of the "
+"payment methods provided by the e-Invoicing service to avoid invoicing "
+"errors."
+msgstr ""
+
+#: App/Admin/AppState/AppStateManager.php:300
+#: App/Admin/AppState/AppStateManager.php:317
+#, php-format
+msgid ""
+"Some of the plugins installed are not compatible with Aruba Electronic "
+"Invoicing. Uninstall %s plugins to correctly import orders and issue "
+"electronic invoices with Aruba's service"
+msgstr ""
+
+#: App/Admin/Checkout/ArubaFeCheckout.php:55
+msgid "Address"
+msgstr ""
+
+#: App/Admin/Checkout/ArubaFeCheckout.php:56
+msgid "Fiscal data"
+msgstr ""
+
+#: App/Admin/Checkout/ArubaFeCheckout.php:57
+msgid "(One of the two fields required)"
+msgstr ""
+
+#: App/Admin/Checkout/ArubaFeCheckout.php:58
+#: App/Admin/Checkout/ArubaFeCheckout.php:60
+msgid "Invoicing data"
+msgstr ""
+
+#: App/Admin/Checkout/ArubaFeCheckout.php:59
+msgid "(name/surname or company name required)"
+msgstr ""
+
+#: App/Admin/Checkout/ArubaFeCheckout.php:61
+msgid "Customer data"
+msgstr ""
+
+#: App/Admin/Checkout/Admin/ArubaFeAdminOrderPage.php:80
+#: App/Admin/Checkout/Admin/ArubaFeAdminOrderPage.php:196
+#: App/Admin/Checkout/Helper/ArubaFeCheckoutHelper.php:206
+#: App/Admin/Checkout/Helper/ArubaFeOrderHelper.php:56
+msgid "No"
+msgstr ""
+
+#: App/Admin/Checkout/Admin/ArubaFeAdminOrderPage.php:84
+#: App/Admin/Checkout/Helper/ArubaFeCheckoutHelper.php:207
+msgid "Yes, I would like to receive the invoice"
+msgstr ""
+
+#: App/Admin/Checkout/Admin/ArubaFeAdminOrderPage.php:88
+#: App/Admin/Checkout/Admin/ArubaFeAdminOrderPage.php:198
+#: App/Admin/Checkout/Helper/ArubaFeCheckoutHelper.php:202
+msgid "Do you want an invoice?"
+msgstr ""
+
+#: App/Admin/Checkout/Admin/ArubaFeAdminOrderPage.php:177
+#: App/Admin/Checkout/Helper/ArubaFeCheckoutHelper.php:160
+#: App/Admin/Checkout/Helper/ArubaFeOrderHelper.php:50
+#: App/Admin/Label/ArubaFeLabel.php:175
+msgid "Company"
+msgstr ""
+
+#: App/Admin/Checkout/Admin/ArubaFeAdminOrderPage.php:177
+#: App/Admin/Label/ArubaFeLabel.php:174
+msgid "Person"
+msgstr ""
+
+#: App/Admin/Checkout/Admin/ArubaFeAdminOrderPage.php:184
+#: App/Admin/Checkout/Helper/ArubaFeCheckoutHelper.php:174
+#: App/Admin/Checkout/Helper/ArubaFeCheckoutHelper.php:234
+msgid "SDI (Recipient Code)"
+msgstr ""
+
+#: App/Admin/Checkout/Admin/ArubaFeAdminOrderPage.php:185
+#: App/Admin/Checkout/Helper/ArubaFeCheckoutHelper.php:175
+msgid "PEC"
+msgstr ""
+
+#: App/Admin/Checkout/Admin/ArubaFeAdminOrderPage.php:186
+#: App/Admin/Checkout/Helper/ArubaFeCheckoutHelper.php:177
+#: App/Admin/Checkout/Helper/ArubaFeOrderHelper.php:65
+msgid "Foreign invoice number"
+msgstr ""
+
+#: App/Admin/Checkout/Admin/ArubaFeAdminOrderPage.php:187
+#: App/Admin/Checkout/Helper/ArubaFeCheckoutHelper.php:176
+#: App/Admin/Checkout/Helper/ArubaFeOrderHelper.php:53
+msgid "No identifier"
+msgstr ""
+
+#: App/Admin/Checkout/Admin/ArubaFeAdminOrderPage.php:196
+#: App/Admin/Checkout/Helper/ArubaFeOrderHelper.php:59
+msgid "Yes"
+msgstr ""
+
+#: App/Admin/Checkout/Helper/ArubaFeCheckoutHelper.php:155
+msgid "Customer type"
+msgstr ""
+
+#: App/Admin/Checkout/Helper/ArubaFeCheckoutHelper.php:159
+#: App/Admin/Label/ArubaFeLabel.php:140
+msgid "Select"
+msgstr ""
+
+#: App/Admin/Checkout/Helper/ArubaFeCheckoutHelper.php:161
+msgid "Physical person"
+msgstr ""
+
+#: App/Admin/Checkout/Helper/ArubaFeCheckoutHelper.php:170
+msgid "How would you like to receive an invoice?"
+msgstr ""
+
+#: App/Admin/Checkout/Helper/ArubaFeCheckoutHelper.php:218
+msgid "Tax code"
+msgstr ""
+
+#: App/Admin/Checkout/Helper/ArubaFeCheckoutHelper.php:226
+msgid "VAT number"
+msgstr ""
+
+#: App/Admin/Checkout/Helper/ArubaFeCheckoutHelper.php:242
+msgid "PEC address"
+msgstr ""
+
+#: App/Admin/Checkout/Helper/ArubaFeOrderHelper.php:47
+msgid "Private"
+msgstr ""
+
+#: App/Admin/Checkout/Helper/ArubaFeOrderHelper.php:62
+msgid "Not selected"
+msgstr ""
+
+#: App/Admin/Checkout/Site/ArubaFeCheckoutFields.php:47
+msgid "<strong>Error :</strong>You must fill company name or name/surname"
+msgstr ""
+
+#: App/Admin/Checkout/Site/ArubaFeCheckoutFields.php:61
+msgid ""
+"<strong>Error :</strong>You must fill in the field tax code or VAT number"
+msgstr ""
+
+#: App/Admin/Checkout/Site/ArubaFeCheckoutFields.php:74
+msgid "<strong>Error :</strong> You must fill in the pec field correctly"
+msgstr ""
+
+#: App/Admin/Checkout/Site/ArubaFeCheckoutFields.php:87
+#: App/Admin/Checkout/Site/ArubaFeCheckoutFields.php:138
+msgid "<strong>Fiscal Code</strong> is not filled in correctly"
+msgstr ""
+
+#: App/Admin/Checkout/Site/ArubaFeCheckoutFields.php:101
+msgid "<strong>VAT number</strong> not filled in correctly"
+msgstr ""
+
+#: App/Admin/Checkout/Site/ArubaFeCheckoutFields.php:121
+msgid "<strong>Need invoice </strong>is not filled in correctly"
+msgstr ""
+
+#: App/Admin/Checkout/Site/ArubaFeCheckoutFields.php:153
+msgid "<strong>Select customer type</strong> is a required field"
+msgstr ""
+
+#: App/Admin/Checkout/Site/ArubaFeCheckoutFields.php:168
+msgid "<strong>Error:</strong> Invalid nonce"
+msgstr ""
+
+#: App/Admin/Checkout/Site/ArubaFeOrderPage.php:99
+msgid "Invoice reception method:"
+msgstr ""
+
+#: App/Admin/Checkout/Site/ArubaFeOrderPage.php:115
+msgid "Invoice"
+msgstr ""
+
+#: App/Admin/Cron/ArubaFeCronExec.php:29
+msgid "Every 5 minutes"
+msgstr ""
+
+#: App/Admin/Cron/ArubaFeCronExec.php:41
+msgid "Every 11 minutes"
+msgstr ""
+
+#: App/Admin/Cron/ArubaFeCronExec.php:214
+#: App/Admin/Cron/ArubaFeCronExec.php:229
+msgid "The copy of the invoice can`t be sent"
+msgstr ""
+
+#: App/Admin/Documents/ArubaFeDocument.php:24
+msgid "Could not access filesystem."
+msgstr ""
+
+#: App/Admin/Email/ArubaFeCurtesycopyEmail.php:21
+msgid "Courtesy copy"
+msgstr ""
+
+#: App/Admin/Email/ArubaFeCurtesycopyEmail.php:22
+msgid "Personalised email for sending copy of invoice"
+msgstr ""
+
+#: App/Admin/Email/ArubaFeCurtesycopyEmail.php:44
+msgid "Order invoice {order_number}"
+msgstr ""
+
+#: App/Admin/Email/ArubaFeCurtesycopyEmail.php:55
+msgid ""
+"Dear customer, we are sending you the invoice for your order {order_number}."
+msgstr ""
+
+#: App/Admin/Email/ArubaFeCurtesycopyEmail.php:65
+msgid "ORDINE VUOTO!!!"
+msgstr ""
+
+#: App/Admin/Email/ArubaFeCurtesycopyEmail.php:75
+msgid "non ricevo ORDINE!!!"
+msgstr ""
+
+#: App/Admin/Email/ArubaFeCurtesycopyEmail.php:85
+msgid "non ricevo allegato!!!"
+msgstr ""
+
+#: App/Admin/Email/ArubaFeCurtesycopyEmail.php:104
+msgid "The copy of the invoice was sent"
+msgstr ""
+
+#: App/Admin/Email/ArubaFeCurtesycopyEmail.php:122
+msgid ""
+"The courtesy copy for the order could not be sent. Please check the email "
+"sending options of your shop."
+msgstr ""
+
+#: App/Admin/Email/ArubaFeInvalidVersionEmail.php:47
+msgid "Update the Aruba Electronic Invoicing plugin"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:47
+msgid "LOADING"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:48
+msgid ""
+"The Aruba Electronic Invoicing plugin has been correctly connected to the "
+"WooCommerce module of the e-Billing service. Manage the plugin configuration "
+"to indicate the details of operation."
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:49
+msgid "The plugin has been disconnected"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:50
+msgid "Settings saved successfully"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:51
+msgid ""
+"You can select to always create an invoice for individuals or you can let "
+"the customer choose whether or not to receive the invoice. You will be "
+"prompted to enter the mandatory tax code when creating the invoice."
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:52
+msgid ""
+"Select the type of description you want to appear on the invoice for each "
+"purchased item. The data will be retrieved from the WooCommerce plugin "
+"settings."
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:53
+msgid ""
+"The shop name is not editable and will be used in the eInvoice Management "
+"Panel to identify the shop from which the order originated."
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:54
+msgid "Configure exemptions"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:55
+msgid "Save configuration"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:56
+msgid ""
+"For electronic invoices, the VAT number [PIVA] present within Aruba`s "
+"electronic invoicing service will be used"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:57
+msgid ""
+"E-invoices will be issued from the VAT [VAT ID] in the e-invoicing service."
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:58
+msgid "Aruba Electronic Invoicing Configuration"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:59
+msgid "Configure"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:60
+msgid ""
+"To continue, you must enable tax rates and tax calculations in the "
+"WooCommerce Settings page"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:61
+msgid "Checking Tax Rates and Taxes Enablement..."
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:62
+msgid "You are disabling Aruba Electronic Invoicing"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:63
+msgid "You`re keeping Aruba taxes"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:64
+msgid "Restore initial taxes"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:65
+msgid ""
+"You can choose whether to keep the tax configuration you had on the plugin "
+"or restore the WooCommerce ones that existed before the plugin was installed."
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:66
+msgid "Disconnect the Aruba Electronic Invoicing plugin?"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:67
+msgid ""
+"By unplugging the plugin from the WooCommerce module, orders placed on the "
+"online shop will no longer be imported into the invoicing service and you "
+"won`t be able to automatically generate invoices for purchases. You will "
+"only be able to view existing orders and invoices."
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:68
+msgid "Do you want to disconnect the plugin?"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:69
+msgid "Cancel"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:70
+msgid "Communication error, contact support if not resolved"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:71
+#: App/Admin/RestApi/ArubaFeApiRestManager.php:364
+#: App/Admin/RestApi/ArubaFeApiRestManager.php:386
+#: App/Admin/RestApi/ArubaFeApiRestManager.php:720
+msgid "Authentication failed"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:73
+#, php-format
+msgid "error %s"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:74
+msgid "Connection failed: "
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:75
+msgid "Shop Name"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:76
+msgid "Customer Code"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:77
+msgid "Secret Code"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:78 App/Admin/Label/ArubaFeLabel.php:79
+msgid "Connected"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:80
+msgid "Connecting"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:81
+msgid "Disconnect"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:83
+msgid ""
+"To link the plugin with the WooCommerce e-Invoicing module, open the [b]"
+"Settings[/b] of the billing service, select the [b]E-commerce[/b] item and "
+"copy the client code and secret code for [b]WooCommerce[/b], then enter them "
+"here and complete the configuration."
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:84
+msgid "For more details, see the "
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:85
+msgid "online guide."
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:87
+msgid "Create Invoice"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:88 App/Admin/Label/ArubaFeLabel.php:89
+msgid "Automatic (recommended)"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:90
+msgid "Tooltip - Automatic (recommended)"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:91
+msgid "Tooltip - Manual"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:92 App/Admin/Label/ArubaFeLabel.php:93
+msgid "Manual"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:94
+msgid "Send Invoices"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:95
+msgid ""
+"If you select Automatic, an electronic invoice will be created each time an "
+"order reaches the chosen status for issuance (e.g. completed)."
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:96
+msgid ""
+"By selecting Manual you will be the one to create the invoice for the sale."
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:97
+msgid ""
+"If you select Automatic, the invoice will automatically be sent to the "
+"Interchange System (SDI) whenever an order reaches the status chosen for "
+"sending (e.g. completed)."
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:98
+msgid "By selecting Manual you will be the one to send the invoice to SDI."
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:99
+msgid "Payment has been received and the order has been processed"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:100
+msgid "Payment has been received and the order is being prepared"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:101
+msgid "Awaiting receipt of payment by bank transfer"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:102
+msgid "Completed"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:103
+msgid "In process"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:104
+msgid "Pending"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:105
+msgid "Order State for automatic invoice creation"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:106
+msgid "Order state for automatic invoice creation and sending"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:107
+msgid "Order state for creation"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:108
+msgid "Select order state to create invoice automatically"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:109
+msgid ""
+"Select the order state at which to create and send the invoice automatically"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:110
+msgid "Select the order state at which to create order automatically"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:111
+msgid "Automatically mark invoices paid by credit card as collected"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:112
+msgid "Do not mark any invoices as collected automatically"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:113
+msgid "Mark receipts for paid invoices"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:114
+msgid ""
+"Select whether you want to consider paid orders processed by credit card."
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:115
+msgid "Product/Service Name"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:116
+msgid "Product/Service Name + Description"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:117
+msgid "Product/Service Name + Short Description"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:118
+msgid "Description to insert in invoice"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:119
+msgid "Always create an invoice for natural persons"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:120
+msgid ""
+"Allow natural person customer to choose whether or not to receive invoice"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:121
+msgid "Create invoices for individuals"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:122
+msgid ""
+"Automatically create new master records and update existing ones in case of "
+"new users or mismatched data."
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:123
+msgid ""
+"Never create new master records and never update existing ones in case of "
+"new users or mismatched data"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:124
+msgid "Create and update customer master data"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:125
+msgid ""
+"The system will perform a comparison between the customer master data linked "
+"to WooCommerce orders and the ones in the Electronic Invoicing service. "
+"Choose the action you want it to perform."
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:126
+msgid ""
+"Always send a pdf copy of the invoice to the customer`s email address "
+"(Recommended)"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:127
+msgid "Do not send the courtesy copy to the customer"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:128
+msgid "Automatically send courtesy copy of invoice"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:129
+msgid "Uploading payments"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:130
+msgid "Methods available on WooCommerce"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:131
+msgid "Methods available on Fatturazione Elettronica"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:133
+msgid ""
+"Set a match between the payment methods available on WooCommerce and those "
+"set on the eInvoicing service."
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:134
+msgid "Tax Configuration"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:135
+msgid ""
+"You can define a single tax rate for the Italian, European or non-European "
+"area, or configure a rate for each country."
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:136
+msgid ""
+"Taxes will automatically be associated with products/services based on the "
+"nationality of the customer placing the order."
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:137
+msgid ""
+"This tax rate configuration will replace the one in the Tax section of the "
+"WooCommerce plugin."
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:138
+msgid "Consult the guides for more details on applying taxes"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:141
+msgid "Some settings are not configured correctly"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:142 App/Admin/Label/ArubaFeLabel.php:180
+msgid "Payments"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:143
+msgid "Refer to the payment method configuration guidelines"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:144
+msgid "Italy"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:145
+msgid "European Community Countries"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:146
+msgid "Non-EU Countries"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:147 App/Admin/Label/ArubaFeLabel.php:162
+msgid "Tax rates"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:148
+msgid "Delete this tax rate"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:149
+msgid "Do you really want to delete this tax rate?"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:150
+msgid ""
+"By confirming, all tax rates set for this class will be deleted, please "
+"don`t need to save any more"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:151
+msgid "I confirm that I want to delete the tax rate"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:152
+msgid "Configure a tax rate by region or country"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:153
+msgid "Consult the guides for more details on configuring taxes"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:154
+msgid "Create new tax rate"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:155
+msgid "Save"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:156
+msgid "Confirm rate entry?"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:157
+msgid "Confirm"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:158
+msgid "Choose by area"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:159
+msgid "Choose by country"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:160
+msgid "Country Code"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:161
+msgid "VAT Code"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:163
+msgid "Do you confirm the tax rate entry?"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:164
+msgid "In case of a single country setting, enter the 2-digit code, e.g. IT"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:165
+msgid "Percentage value based on which to calculate the tax"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:166
+msgid "Only letters and numbers are allowed"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:167 App/Admin/Label/ArubaFeLabel.php:170
+msgid "Elements:"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:168
+msgid "Apply"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:169
+msgid "Do not apply"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:171
+msgid "Foreign Customer Exemption"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:172
+msgid ""
+"You can set a VAT rate of 0 for the specified customer categories by "
+"selecting one of the available ones"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:173
+msgid "Subject"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:176
+msgid "An unexpected error has occurred"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:177
+msgid "Close"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:178
+msgid "Plugin Connection"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:179
+msgid "General Settings"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:181
+msgid "Taxes"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:182
+msgid "Customer Type"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:183
+msgid "Tax Rate"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:184
+msgid "EU Individuals"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:185
+msgid "Non-EU natural persons"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:186
+msgid "Companies/EU VAT Payers"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:187
+msgid "Companies/VAT_entities non-EU"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeLabel.php:188
+msgid "of"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeStatusesLabel.php:19
+#: App/Admin/Label/ArubaFeStatusesLabel.php:40
+msgid "Incompleto"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeStatusesLabel.php:23
+msgid "Completo"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeStatusesLabel.php:44
+msgid "Presa in carico"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeStatusesLabel.php:48
+msgid "Errore elaborazione"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeStatusesLabel.php:52
+msgid "Inviata a SDI"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeStatusesLabel.php:56
+msgid "Scartata"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeStatusesLabel.php:60
+msgid "Non consegnata"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeStatusesLabel.php:64
+msgid "Recapito impossibile"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeStatusesLabel.php:68
+msgid "Consegnato"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeStatusesLabel.php:72
+msgid "Accettata"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeStatusesLabel.php:76
+msgid "Rifiutata"
+msgstr ""
+
+#: App/Admin/Label/ArubaFeStatusesLabel.php:80
+msgid "Decorrenza termini"
+msgstr ""
+
+#: App/Admin/RestApi/ArubaFeApiRestManager.php:315
+msgid "The invoice could not be created, its draft was created"
+msgstr ""
+
+#: App/Admin/RestApi/ArubaFeApiRestManager.php:319
+msgid ""
+"A problem occurred while creating the invoice, please check the e-Invoicing "
+"panel"
+msgstr ""
+
+#: App/Admin/RestApi/ArubaFeApiRestManager.php:325
+msgid "The invoice was generated"
+msgstr ""
+
+#: App/Admin/RestApi/ArubaFeApiRestManager.php:336
+msgid ""
+"A problem occurred while creating the draft, please check the e-Invoicing "
+"panel"
+msgstr ""
+
+#: App/Admin/RestApi/ArubaFeApiRestManager.php:340
+msgid "The invoice was generated and inserted in the Drafts"
+msgstr ""
+
+#: App/Admin/RestApi/ArubaFeApiRestManager.php:347
+msgid "The order was generated and inserted in the Orders"
+msgstr ""
+
+#: App/Admin/RestApi/ArubaFeApiRestManager.php:370
+#: App/Admin/RestApi/ArubaFeApiRestManager.php:385
+#, php-format
+msgid "An error occurred while sending to Aruba Electronic Invoicing [%s]."
+msgstr ""
+
+#: App/Admin/RestApi/ArubaFeApiRestManager.php:653
+#: App/Admin/RestApi/ArubaFeApiRestManager.php:702
+msgid "Draft invoice generated"
+msgstr ""
+
+#: App/Admin/RestApi/ArubaFeApiRestManager.php:664
+#: App/Admin/RestApi/ArubaFeApiRestManager.php:726
+#: App/Admin/RestApi/ArubaFeApiRestManager.php:741
+#, php-format
+msgid "An error occurred while creating the invoice in Draft [%s]."
+msgstr ""
+
+#: App/Admin/RestApi/ArubaFeApiRestManager.php:665
+msgid "Invalid order"
+msgstr ""
+
+#: App/Admin/RestApi/ArubaFeApiRestManager.php:742
+msgid "Invalid Token"
+msgstr ""
+
+#: App/Admin/RestApi/ArubaFeApiRestManager.php:811
+msgid "Draft credit note generated"
+msgstr ""
+
+#: App/Admin/RestApi/ArubaFeApiRestManager.php:815
+msgid "Error while creating credit note"
+msgstr ""
+
+#: App/Admin/RestApi/DataTransfer/ArubaFeOrderDataTransfer.php:129
+msgid "Company name or first name and last name are required"
+msgstr ""
+
+#: App/Admin/RestApi/DataTransfer/ArubaFeOrderDataTransfer.php:140
+msgid "Company taxCode or vatCode are required"
+msgstr ""
+
+#: App/Admin/RestApi/DataTransfer/ArubaFeOrderDataTransfer.php:146
+msgid "Company taxCode is not in the correct format"
+msgstr ""
+
+#: App/Admin/RestApi/DataTransfer/ArubaFeOrderDataTransfer.php:152
+msgid "Company vatCode is not in the correct format"
+msgstr ""
+
+#: App/Admin/RestApi/DataTransfer/ArubaFeOrderDataTransfer.php:161
+msgid "Company Destination Reference is required"
+msgstr ""
+
+#: App/Admin/RestApi/DataTransfer/ArubaFeOrderDataTransfer.php:170
+msgid "Company PEC is not in the correct format"
+msgstr ""
+
+#: App/Admin/RestApi/DataTransfer/ArubaFeOrderDataTransfer.php:177
+msgid "Customer first name is required"
+msgstr ""
+
+#: App/Admin/RestApi/DataTransfer/ArubaFeOrderDataTransfer.php:181
+msgid "Customer last name is required"
+msgstr ""
+
+#: App/Admin/RestApi/DataTransfer/ArubaFeOrderDataTransfer.php:186
+msgid "Customer taxCode is required"
+msgstr ""
+
+#: App/Admin/RestApi/DataTransfer/ArubaFeOrderDataTransfer.php:190
+msgid "Customer taxCode is not in the correct format"
+msgstr ""
+
+#: App/Admin/RestApi/DataTransfer/ArubaFeOrderDataTransfer.php:195
+msgid "Customer type is required"
+msgstr ""
+
+#: App/Admin/RestApi/DataTransfer/ArubaFeOrderDataTransfer.php:274
+msgid "Order can't be empty"
+msgstr ""
+
+#: App/Admin/RestApi/DataTransfer/ArubaFeOrderDataTransfer.php:302
+#, php-format
+msgid "Product %s doesn't have related tax rate"
+msgstr ""
+
+#: App/Admin/RestApi/DataTransfer/ArubaFeOrderDataTransfer.php:373
+#, php-format
+msgid "Shipping %s doesn't have related tax rate"
+msgstr ""
+
+#: App/Admin/RestApi/DataTransfer/ArubaFeOrderDataTransfer.php:389
+msgid "Shipping - "
+msgstr ""
+
+#: App/Admin/RestApi/DataTransfer/ArubaFeOrderDataTransfer.php:411
+msgid "None"
+msgstr ""
+
+#: App/Admin/RestApi/DataTransfer/ArubaFeOrderDataTransfer.php:414
+#, php-format
+msgid "Payment method `%s` isn`t valid"
+msgstr ""
+
+#: App/Admin/RestApi/DataTransfer/ArubaFeOrderDataTransfer.php:481
+msgid "Billing"
+msgstr ""
+
+#: App/Admin/RestApi/DataTransfer/ArubaFeOrderDataTransfer.php:481
+msgid "Shipping"
+msgstr ""
+
+#: App/Admin/RestApi/DataTransfer/ArubaFeOrderDataTransfer.php:486
+#, php-format
+msgid "%s address is required"
+msgstr ""
+
+#: App/Admin/RestApi/DataTransfer/ArubaFeOrderDataTransfer.php:492
+#, php-format
+msgid "%s city is required"
+msgstr ""
+
+#: App/Admin/RestApi/DataTransfer/ArubaFeOrderDataTransfer.php:498
+#, php-format
+msgid "%s zipCode is required"
+msgstr ""
+
+#: App/Admin/RestApi/DataTransfer/ArubaFeOrderDataTransfer.php:503
+#, php-format
+msgid "%s zipCode is not in the correct format"
+msgstr ""
+
+#: App/Admin/RestApi/DataTransfer/ArubaFeOrderDataTransfer.php:535
+#, php-format
+msgid "Order can't be sent to Aruba Electronic Invoicing:%s"
+msgstr ""
+
+#: App/Publics/PublicInit.php:52 App/Publics/PublicInit.php:68
+#: App/Publics/PublicInit.php:92
+msgid "Forbidden Access"
+msgstr ""
+
+#: App/Publics/PublicInit.php:62
+msgid "Order not found"
+msgstr ""
+
+#: templates/admin/tpl_admin_email.php:14
+msgid "Dear Customer,"
+msgstr ""
+
+#: templates/admin/tpl_admin_email.php:15
+msgid "a new version of the Aruba Electronic Invoicing plugin is available."
+msgstr ""
+
+#: templates/admin/tpl_admin_email.php:16
+msgid ""
+"Update it now on your WooCommerce instance to enable proper integration "
+"between the online shop and the Electronic Invoicing service."
+msgstr ""
+
+#: templates/admin/tpl_admin_email.php:18
+msgid "Download the updated version of the plugin;"
+msgstr ""
+
+#: templates/admin/tpl_admin_email.php:19
+msgid "install it on your WooCommerce instance"
+msgstr ""
+
+#: templates/admin/tpl_admin_email.php:20
+msgid "confirms the replacement of the plugin."
+msgstr ""
+
+#: templates/admin/tpl_admin_email.php:23
+msgid "UPDATE NOW"
+msgstr ""
+
+#: templates/admin/tpl_admin_email.php:25
+msgid "Best Regards"
+msgstr ""
+
+#: templates/admin/tpl_disabled_taxes.php:7
+msgid ""
+"You have installed the Aruba Electronic Invoicing plugin. You need to "
+"configure the taxes on the plugin to ensure successful electronic invoicing."
+msgstr ""
+
+#: templates/admin/tpl_disabled_taxes.php:9
+msgid "Configure taxes on the Aruba plugin"
+msgstr ""
+
+#: templates/admin/tpl_order_links.php:27
+msgid "Electronic invoice status"
+msgstr ""
+
+#: templates/admin/tpl_order_links.php:51
+msgid "Order cannot be generated due to the following errors:"
+msgstr ""
+
+#: templates/admin/tpl_order_links.php:60
+msgid "Correct Order"
+msgstr ""
+
+#: templates/admin/tpl_order_links.php:69
+msgid "Electronic invoice not generated"
+msgstr ""
+
+#: templates/admin/tpl_order_links.php:74
+msgid "Reinvia fattura"
+msgstr ""
+
+#: templates/admin/tpl_order_links.php:112
+msgid "Credit note status"
+msgstr ""
+
+msgid "<strong>Error :</strong> Company Destination Reference is not in the correct format"
+msgstr ""
+
+msgid "Company Destination Reference is not in the correct format"
+msgstr ""
+
+msgid "Display of product amounts in the order/invoice"
+msgstr ""
+
+msgid "Shows the amount of the product divided between the basic price and the cost of surcharges (e.g. for additional machining, customisation, etc.)."
+msgstr ""
+
+msgid "Always show the full amount of the product in one price field (product price and any mark-ups)"
+msgstr ""
+
+msgid "Bank to be associated if payment by bank transfer (Optional)"
+msgstr ""
+
+msgid "If you select a bank this will be used for both invoices and orders and the bank entered in the woocommerce bank transfer settings will be overwritten."
+msgstr ""
+
